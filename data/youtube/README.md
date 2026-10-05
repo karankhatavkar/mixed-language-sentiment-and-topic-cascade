@@ -1,19 +1,23 @@
 # YouTube source
 
-One brand (**SHEIN**) across 15 videos. The brand's own channel has comments
-disabled or near-zero traffic, so videos are hauls/reviews posted *about* SHEIN
-by third-party creators. "One brand" is kept at the content level — all 15
-videos are SHEIN-focused, so the fixed 8 fashion topics apply uniformly.
+One brand (**SHEIN**) and one product category (**clothing hauls**) across
+3 videos. The brand's own channel has comments disabled or near-zero
+traffic, so videos are hauls posted *about* SHEIN by third-party creators.
+Narrowed from an original 15-video pool to tighten topic coherence — all
+discussion is about clothing items from the same brand, so the fixed 8
+fashion topics apply uniformly and sentiment variance isn't diluted by
+mixed product types.
 
 ## Files
 
-- `videos.csv` — 15-video shortlist (**the source of truth** for the pull).
+- `videos.csv` — 3-video shortlist (**the source of truth** for the pull).
 - `candidates.csv` — the full 46-video scored pool the shortlist was picked
   from. Kept so swaps are reproducible if a video goes private / disables
-  comments / gets taken down.
+  comments / gets taken down, and so Option B / C narrower cuts can be
+  revisited without redoing the search.
 
-Neither file holds YouTube comments. The scraper (next step) reads
-`videos.csv` and writes `data/raw/youtube/comments_raw.csv` (gitignored).
+Neither file holds YouTube comments. The scraper reads `videos.csv` and
+writes `data/raw/youtube/comments_raw.csv` (gitignored).
 
 ## Columns in `videos.csv`
 

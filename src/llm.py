@@ -122,16 +122,22 @@ def _call(
     system_instruction: str,
     user_text: str,
     schema: type[BaseModel],
-    thinking_level: types.ThinkingLevel,
+    thinking_level: types.ThinkingLevel | None = None,
 ) -> dict:
-    cfg = types.GenerateContentConfig(
+    cfg_kwargs = dict(
         system_instruction=system_instruction,
         temperature=0,
         response_mime_type="application/json",
         response_json_schema=schema.model_json_schema(),
-        thinking_config=types.ThinkingConfig(thinking_level=thinking_level),
     )
-    resp = _get_client().models.generate_content(model=model, contents=user_text, config=cfg)
+    # Gemini 2.5 Pro rejects any thinking_level; Gemini 3.x needs it.
+    if thinking_level is not None:
+        cfg_kwargs["thinking_config"] = types.ThinkingConfig(thinking_level=thinking_level)
+    resp = _get_client().models.generate_content(
+        model=model,
+        contents=user_text,
+        config=types.GenerateContentConfig(**cfg_kwargs),
+    )
     return schema.model_validate_json(resp.text).model_dump()
 
 
@@ -153,13 +159,32 @@ def classify_pipeline(post_id: str, text: str) -> dict:
 def classify_judge(post_id: str, text: str) -> dict:
     """Topics only (Gemini Pro judge).
 
-    Pro rejects MINIMAL — LOW is the lowest level it accepts.
+    No thinking_level is passed — 2.5 Pro rejects the field entirely; the
+    model falls back to its default internal thinking budget.
     """
     cache = _load_cache()
     key = _cache_key(GEMINI_JUDGE_MODEL, post_id)
     if key in cache:
         return cache[key]
-    result = _call(GEMINI_JUDGE_MODEL, _JUDGE_SYSTEM, text, JudgeResponse,
+    result = _call(GEMINI_JUDGE_MODEL, _JUDGE_SYSTEM, text, JudgeResponse)
+    cache[key] = result
+    _save_cache()
+    return result
+
+
+def classify_full_pro(post_id: str, text: str) -> dict:
+    """Full 4-way sentiment + sarcasm + topics + reason using the Pro model.
+
+    Used to pre-label the YouTube pool (sentiment + topics in one call,
+    higher-quality than Flash-Lite). Cached under a 'yt::' namespace so
+    it never collides with classify_judge, which uses the same model but
+    emits a topics-only schema on potentially overlapping post_ids.
+    """
+    cache = _load_cache()
+    key = f"yt::{_cache_key(GEMINI_JUDGE_MODEL, post_id)}"
+    if key in cache:
+        return cache[key]
+    result = _call(GEMINI_JUDGE_MODEL, _PIPELINE_SYSTEM, text, PipelineResponse,
                    thinking_level=types.ThinkingLevel.LOW)
     cache[key] = result
     _save_cache()

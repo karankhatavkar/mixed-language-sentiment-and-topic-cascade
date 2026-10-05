@@ -3,15 +3,13 @@
 Date: 2026-10-05
 Split: **test** (300 rows)
 
-_Topic metrics skipped — `results/topic_judge.csv` not found._
-
 ## Headline
 
 | Setup | EN F1 | AR F1 | Mixed F1 | Overall F1 | Neg Recall | Topic F1 | LLM Calls | Cost / 1k |
 |---|---|---|---|---|---|---|---|---|
-| A | 0.724 | 0.677 | 0.838 | 0.749 | 0.848 | — | 0% | $0.000 |
-| B | 0.761 | 0.714 | 0.939 | 0.805 | 0.826 | — | 100% | $0.250 |
-| C | 0.726 | 0.694 | 0.939 | 0.787 | 0.859 | — | 70% | $0.174 |
+| A | 0.724 | 0.677 | 0.838 | 0.749 | 0.848 | 0.230 | 0% | $0.000 |
+| B | 0.761 | 0.714 | 0.939 | 0.805 | 0.826 | 0.435 | 100% | $0.250 |
+| C | 0.726 | 0.694 | 0.939 | 0.787 | 0.859 | 0.276 | 70% | $0.174 |
 
 ## Setup A
 
@@ -52,6 +50,20 @@ LLM call rate: **0.0%**  ·  Cost / 1k posts: **$0.000**
 | neutral  |          5 |        24 |          3 |       0 |
 | positive |          0 |         3 |         41 |       0 |
 
+### Topic metrics
+
+| topic            |     P |     R |    F1 |   support_gold |
+|:-----------------|------:|------:|------:|---------------:|
+| delivery         | 0.1   | 1     | 0.182 |              1 |
+| sizing           | 0     | 0     | 0     |              0 |
+| quality          | 0.031 | 0.25  | 0.056 |              8 |
+| price            | 0.176 | 0.75  | 0.286 |              4 |
+| returns_refunds  | 0     | 0     | 0     |              0 |
+| customer_service | 0     | 0     | 0     |              2 |
+| product_praise   | 0.571 | 0.377 | 0.455 |             53 |
+| other            | 0.874 | 0.856 | 0.865 |            236 |
+| macro            | 0.219 | 0.404 | 0.23  |            304 |
+
 ## Setup B
 
 LLM call rate: **100.0%**  ·  Cost / 1k posts: **$0.250**
@@ -91,6 +103,20 @@ LLM call rate: **100.0%**  ·  Cost / 1k posts: **$0.250**
 | neutral  |          0 |        29 |          3 |       0 |
 | positive |          0 |         2 |         41 |       1 |
 
+### Topic metrics
+
+| topic            |     P |     R |    F1 |   support_gold |
+|:-----------------|------:|------:|------:|---------------:|
+| delivery         | 0     | 0     | 0     |              1 |
+| sizing           | 0     | 0     | 0     |              0 |
+| quality          | 1     | 0.25  | 0.4   |              8 |
+| price            | 1     | 0.75  | 0.857 |              4 |
+| returns_refunds  | 0     | 0     | 0     |              0 |
+| customer_service | 0.333 | 1     | 0.5   |              2 |
+| product_praise   | 0.827 | 0.811 | 0.819 |             53 |
+| other            | 0.842 | 0.97  | 0.902 |            236 |
+| macro            | 0.5   | 0.473 | 0.435 |            304 |
+
 ## Setup C
 
 LLM call rate: **69.7%**  ·  Cost / 1k posts: **$0.174**
@@ -129,3 +155,17 @@ LLM call rate: **69.7%**  ·  Cost / 1k posts: **$0.174**
 | negative |         23 |         1 |          0 |       0 |
 | neutral  |          0 |        29 |          3 |       0 |
 | positive |          0 |         2 |         41 |       1 |
+
+### Topic metrics
+
+| topic            |     P |     R |    F1 |   support_gold |
+|:-----------------|------:|------:|------:|---------------:|
+| delivery         | 0     | 0     | 0     |              1 |
+| sizing           | 0     | 0     | 0     |              0 |
+| quality          | 0.039 | 0.25  | 0.068 |              8 |
+| price            | 0.2   | 0.5   | 0.286 |              4 |
+| returns_refunds  | 0     | 0     | 0     |              0 |
+| customer_service | 0.167 | 1     | 0.286 |              2 |
+| product_praise   | 0.7   | 0.66  | 0.68  |             53 |
+| other            | 0.897 | 0.881 | 0.889 |            236 |
+| macro            | 0.25  | 0.411 | 0.276 |            304 |

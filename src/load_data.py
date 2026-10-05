@@ -1,14 +1,26 @@
-"""Build data/processed/dev.csv and test.csv from the three raw sources.
+"""Build data/processed/{dev,test,youtube}.csv.
 
-Deterministic: same seed + same raw files -> identical output.
+- dev.csv / test.csv : public-dataset slices (English, Arabic, EESA mixed),
+                       sampled DEV_N / TEST_N per slice, 3-way gold labels.
+- youtube.csv        : YouTube SHEIN comments, slice assigned per comment,
+                       4-way gold labels (adds `mixed` and `gold_topics`).
+                       Read from the human-reviewed pre-labelled CSV; no
+                       dev/test split — the whole set is `split='test'`.
+
+Deterministic for the public sources (same seed + same raw files -> identical
+output). The YouTube step is a pass-through transform of the reviewed labels.
 
 Common schema: id, text, gold_sentiment, slice, split, source
-Labels: lowercase 3-way {positive, negative, neutral}. The pipeline may
-predict `mixed` but it never appears in gold.
+YouTube rows add: gold_topics  (JSON list of topics from the fixed 8)
+
+Labels in public gold: lowercase 3-way {positive, negative, neutral}.
+Labels in YouTube gold: 4-way, adds `mixed`.
 
 Run: python -m src.load_data
 """
 from __future__ import annotations
+
+import json
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -20,10 +32,18 @@ from src.config import (
     SEED,
     SENTIMENT_LABELS,
     TEST_N,
+    TOPICS,
 )
 
 CARDIFF_LABEL_MAP = {0: "negative", 1: "neutral", 2: "positive"}
 ALLOWED_LABELS = set(SENTIMENT_LABELS)
+
+YOUTUBE_REVIEWED_PATH = PROCESSED_DIR / "youtube_prelabeled.csv"
+YOUTUBE_OUT_PATH = PROCESSED_DIR / "youtube.csv"
+YOUTUBE_SOURCE = "youtube:shein_clothing_hauls"
+YOUTUBE_SENTIMENTS = {"positive", "negative", "neutral", "mixed"}
+YOUTUBE_SLICES = {"english", "arabic", "mixed"}
+YOUTUBE_TOPICS = set(TOPICS)
 
 
 def _load_cardiff(config: str) -> tuple[pd.DataFrame, pd.DataFrame]:
@@ -87,6 +107,66 @@ def _report(df: pd.DataFrame, name: str) -> None:
     print(counts.to_string())
 
 
+def _load_youtube_reviewed() -> pd.DataFrame:
+    """Load the human-reviewed YouTube pre-labels. Fail fast at the boundary."""
+    df = pd.read_csv(YOUTUBE_REVIEWED_PATH)
+
+    required = {"id", "slice", "text", "pred_sentiment", "pred_topics"}
+    missing = required - set(df.columns)
+    if missing:
+        raise ValueError(f"{YOUTUBE_REVIEWED_PATH.name} missing columns: {missing}")
+
+    bad_sent = set(df["pred_sentiment"]) - YOUTUBE_SENTIMENTS
+    if bad_sent:
+        raise ValueError(f"unexpected gold_sentiment values: {bad_sent}")
+
+    bad_slice = set(df["slice"]) - YOUTUBE_SLICES
+    if bad_slice:
+        raise ValueError(f"unexpected slice values: {bad_slice}")
+
+    for i, raw in enumerate(df["pred_topics"]):
+        try:
+            topics = json.loads(raw)
+        except json.JSONDecodeError as e:
+            raise ValueError(f"row {i} ({df.iloc[i]['id']}): pred_topics not JSON: {raw!r}") from e
+        if not isinstance(topics, list):
+            raise ValueError(f"row {i} ({df.iloc[i]['id']}): pred_topics is not a list")
+        unknown = set(topics) - YOUTUBE_TOPICS
+        if unknown:
+            raise ValueError(f"row {i} ({df.iloc[i]['id']}): unknown topics: {unknown}")
+
+    return df
+
+
+def _assemble_youtube(df: pd.DataFrame) -> pd.DataFrame:
+    return pd.DataFrame(
+        {
+            "id": df["id"].values,
+            "text": df["text"].values,
+            "gold_sentiment": df["pred_sentiment"].values,
+            "slice": df["slice"].values,
+            "split": "test",
+            "source": YOUTUBE_SOURCE,
+            "gold_topics": df["pred_topics"].values,
+        }
+    )
+
+
+def build_youtube() -> None:
+    """Load reviewed pre-labels and emit youtube.csv in the common schema."""
+    if not YOUTUBE_REVIEWED_PATH.exists():
+        print(f"\n[youtube] skipped — {YOUTUBE_REVIEWED_PATH.name} not found")
+        return
+
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+    reviewed = _load_youtube_reviewed()
+    out = _assemble_youtube(reviewed)
+    out.to_csv(YOUTUBE_OUT_PATH, index=False, encoding="utf-8")
+
+    _report(out, "youtube.csv")
+    print(f"\nwrote {YOUTUBE_OUT_PATH} ({len(out)} rows)")
+
+
 def build() -> None:
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -120,3 +200,4 @@ def build() -> None:
 
 if __name__ == "__main__":
     build()
+    build_youtube()

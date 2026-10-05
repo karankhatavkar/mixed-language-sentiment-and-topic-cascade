@@ -1,11 +1,14 @@
-"""Run the sentiment+topic pipeline on dev or test.
+"""Run the sentiment+topic pipeline on dev, test, or youtube.
 
 Three setups per the spec:
   A - Small only (XLM-R + mDeBERTa, no LLM)
   B - LLM only (Gemini on every post)
   C - Cascade (A, then route hard posts to Gemini)
 
-Writes one CSV per setup: results/predictions_{A,B,C}.csv
+Output files:
+  dev / test  ->  results/predictions_{A,B,C}.csv
+  youtube     ->  results/predictions_youtube_{A,B,C}.csv  (keeps the
+                  dev/test files intact so you can re-eval them)
 
 Columns match the data contract in CLAUDE.md:
   id, slice, split, text, gold_sentiment,
@@ -13,13 +16,16 @@ Columns match the data contract in CLAUDE.md:
   routed, route_reason,
   final_sentiment, sarcasm, final_topics, llm_reason,
   setup
+YouTube rows additionally carry `gold_topics` end-to-end for topic eval.
 
-`topic_scores` and `final_topics` are JSON strings in the CSV. For Setup B
-the small-model columns (xlmr_label/xlmr_conf/topic_scores) are empty.
+`topic_scores`, `final_topics`, and `gold_topics` are JSON strings in the
+CSV. For Setup B the small-model columns (xlmr_label/xlmr_conf/
+topic_scores) are empty.
 
 Run:
   python -m src.pipeline --split dev --only A
   python -m src.pipeline --split test              # all three setups
+  python -m src.pipeline --split youtube           # YouTube slice
 """
 from __future__ import annotations
 
@@ -48,7 +54,7 @@ def _topics_above(scores: dict[str, float], cutoff: float) -> list[str]:
 def _small_row(src, sent, topic) -> dict:
     """Row populated with small-model fields only (defaults for routing)."""
     scores = topic["scores"]
-    return {
+    row = {
         "id": src["id"],
         "slice": src["slice"],
         "split": src["split"],
@@ -64,6 +70,9 @@ def _small_row(src, sent, topic) -> dict:
         "final_topics": json.dumps(_topics_above(scores, TOPIC_SCORE_CUTOFF)),
         "llm_reason": "",
     }
+    if "gold_topics" in src:
+        row["gold_topics"] = src["gold_topics"]
+    return row
 
 
 def _route_reasons(sent: dict, topic_scores: dict[str, float]) -> list[str]:
@@ -101,25 +110,26 @@ def run_setup_b(df: pd.DataFrame) -> pd.DataFrame:
     rows = []
     for _, src in df.iterrows():
         out = classify_pipeline(src["id"], src["text"])
-        rows.append(
-            {
-                "id": src["id"],
-                "slice": src["slice"],
-                "split": src["split"],
-                "text": src["text"],
-                "gold_sentiment": src["gold_sentiment"],
-                "xlmr_label": "",
-                "xlmr_conf": "",
-                "topic_scores": "",
-                "routed": True,
-                "route_reason": "setup_B",
-                "final_sentiment": out["sentiment"],
-                "sarcasm": out["sarcasm"],
-                "final_topics": json.dumps(out["topics"]),
-                "llm_reason": out["reason"],
-                "setup": "B",
-            }
-        )
+        row = {
+            "id": src["id"],
+            "slice": src["slice"],
+            "split": src["split"],
+            "text": src["text"],
+            "gold_sentiment": src["gold_sentiment"],
+            "xlmr_label": "",
+            "xlmr_conf": "",
+            "topic_scores": "",
+            "routed": True,
+            "route_reason": "setup_B",
+            "final_sentiment": out["sentiment"],
+            "sarcasm": out["sarcasm"],
+            "final_topics": json.dumps(out["topics"]),
+            "llm_reason": out["reason"],
+            "setup": "B",
+        }
+        if "gold_topics" in src:
+            row["gold_topics"] = src["gold_topics"]
+        rows.append(row)
     return pd.DataFrame(rows)
 
 
@@ -161,7 +171,7 @@ SETUPS = {"A": run_setup_a, "B": run_setup_b, "C": run_setup_c}
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--split", choices=("dev", "test"), required=True)
+    ap.add_argument("--split", choices=("dev", "test", "youtube"), required=True)
     ap.add_argument(
         "--only",
         choices=("A", "B", "C"),
@@ -177,10 +187,12 @@ def main() -> None:
     setups = (args.only,) if args.only else ("A", "B", "C")
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
+    # Keep dev/test filenames stable; prefix youtube so its runs don't clobber.
+    prefix = "youtube_" if args.split == "youtube" else ""
     for setup in setups:
         print(f"\n=== Setup {setup} ===")
         out = SETUPS[setup](df)
-        path = RESULTS_DIR / f"predictions_{setup}.csv"
+        path = RESULTS_DIR / f"predictions_{prefix}{setup}.csv"
         out.to_csv(path, index=False, encoding="utf-8")
         print(f"wrote {path}  ({len(out)} rows)")
 

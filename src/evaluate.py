@@ -1,22 +1,30 @@
-"""Score predictions_{A,B,C}.csv, write results/metrics.md.
+"""Score predictions_{A,B,C}.csv (dev/test) or predictions_youtube_{A,B,C}.csv.
 
-Sentiment metrics (gold has 3 labels, pipeline may predict 4):
-  macro-F1 (headline), negative precision/recall, confusion matrix with a
-  'mixed' column kept so wrong-but-interesting predictions stay visible.
-  Macro-F1 is computed over the 3 gold labels; a 'mixed' prediction counts
-  as wrong but does not inflate the denominator.
+Sentiment metrics:
+  macro-F1 (headline), negative precision/recall, confusion matrix.
+  - dev/test: gold has 3 labels (positive, negative, neutral); macro-F1 is
+    over those 3. A `mixed` prediction counts as wrong but stays visible as
+    its own column in the confusion matrix.
+  - youtube: gold has 4 labels (adds `mixed`); macro-F1 is over all 4.
 
-Topic metrics (optional):
-  Scored against results/topic_judge.csv when present. Precision/recall/F1
-  per topic + macro-F1. Skipped silently if the judge CSV is absent.
+Topic metrics:
+  Scored against gold topics. Precision/recall/F1 per topic + macro-F1.
+  - dev/test: reads results/topic_judge.csv when present (Pro-judge-labelled).
+    Skipped silently if the judge CSV is absent.
+  - youtube: gold_topics is already in the predictions CSV (from the human
+    review); no judge CSV is needed.
 
 LLM call rate = fraction of rows where `routed` is true.
 Cost / 1k posts = call_rate * 1000 * COST_PER_CALL_PIPELINE.
 
-Run: python -m src.evaluate
+Run:
+  python -m src.evaluate --split dev
+  python -m src.evaluate --split test
+  python -m src.evaluate --split youtube
 """
 from __future__ import annotations
 
+import argparse
 import json
 from datetime import date
 
@@ -31,35 +39,38 @@ from src.config import (
 
 SETUPS = ("A", "B", "C")
 SLICES = ("english", "arabic", "mixed")
-GOLD_LABELS = ["negative", "neutral", "positive"]           # confusion rows
-PRED_LABELS = ["negative", "neutral", "positive", "mixed"]  # confusion cols
+GOLD_LABELS_PUBLIC = ["negative", "neutral", "positive"]            # dev/test
+GOLD_LABELS_YOUTUBE = ["negative", "neutral", "positive", "mixed"]  # youtube
+PRED_LABELS = ["negative", "neutral", "positive", "mixed"]          # confusion cols
 
 
 # ----- sentiment metrics ----------------------------------------------------
 
-def _scope_metrics(gold: pd.Series, pred: pd.Series) -> dict:
+def _scope_metrics(gold: pd.Series, pred: pd.Series, gold_labels: list[str]) -> dict:
     return {
         "n": len(gold),
         "accuracy": float((pred == gold).mean()) if len(gold) else 0.0,
-        "macro_f1": float(f1_score(gold, pred, labels=GOLD_LABELS, average="macro", zero_division=0)),
+        "macro_f1": float(f1_score(gold, pred, labels=gold_labels, average="macro", zero_division=0)),
         "neg_precision": float(precision_score(gold, pred, labels=["negative"], average="macro", zero_division=0)),
         "neg_recall": float(recall_score(gold, pred, labels=["negative"], average="macro", zero_division=0)),
     }
 
 
-def _per_slice_table(df: pd.DataFrame) -> pd.DataFrame:
+def _per_slice_table(df: pd.DataFrame, gold_labels: list[str]) -> pd.DataFrame:
     rows = []
     for slice_name in SLICES:
         sub = df[df["slice"] == slice_name]
-        rows.append({"scope": slice_name, **_scope_metrics(sub["gold_sentiment"], sub["final_sentiment"])})
-    rows.append({"scope": "overall", **_scope_metrics(df["gold_sentiment"], df["final_sentiment"])})
+        rows.append({"scope": slice_name,
+                     **_scope_metrics(sub["gold_sentiment"], sub["final_sentiment"], gold_labels)})
+    rows.append({"scope": "overall",
+                 **_scope_metrics(df["gold_sentiment"], df["final_sentiment"], gold_labels)})
     return pd.DataFrame(rows).set_index("scope")
 
 
-def _confusion(df: pd.DataFrame) -> pd.DataFrame:
+def _confusion(df: pd.DataFrame, gold_labels: list[str]) -> pd.DataFrame:
     cm = confusion_matrix(df["gold_sentiment"], df["final_sentiment"], labels=PRED_LABELS)
     out = pd.DataFrame(cm, index=PRED_LABELS, columns=PRED_LABELS)
-    return out.loc[GOLD_LABELS]  # keep only valid-gold rows
+    return out.loc[gold_labels]  # keep only valid-gold rows
 
 
 # ----- topic metrics (optional, needs judge CSV) ---------------------------
@@ -96,34 +107,51 @@ def _llm_stats(df: pd.DataFrame) -> tuple[float, float]:
 
 # ----- report writer --------------------------------------------------------
 
-def _load_predictions() -> dict[str, pd.DataFrame]:
+def _load_predictions(split: str) -> dict[str, pd.DataFrame]:
+    prefix = "youtube_" if split == "youtube" else ""
     out = {}
     for setup in SETUPS:
-        path = RESULTS_DIR / f"predictions_{setup}.csv"
+        path = RESULTS_DIR / f"predictions_{prefix}{setup}.csv"
         if path.exists():
             out[setup] = pd.read_csv(path)
     if not out:
-        raise FileNotFoundError("No predictions_{A,B,C}.csv found in results/. Run src.pipeline first.")
+        raise FileNotFoundError(
+            f"No predictions_{prefix}{{A,B,C}}.csv found in results/. "
+            f"Run `python -m src.pipeline --split {split}` first."
+        )
     return out
 
 
-def _load_judge() -> pd.DataFrame | None:
+def _load_judge(split: str, predictions: dict[str, pd.DataFrame]) -> pd.DataFrame | None:
+    """For dev/test, read the Pro-judge CSV if it exists.
+
+    For youtube, the gold topics are already in each predictions file (from the
+    human-reviewed labels in youtube.csv, carried through by pipeline.py). We
+    pull `gold_topics` from the first available predictions frame and alias it
+    to `judge_topics` so _topic_table can be reused unchanged.
+    """
+    if split == "youtube":
+        first = next(iter(predictions.values()))
+        if "gold_topics" not in first.columns:
+            return None
+        return first[["id", "gold_topics"]].rename(columns={"gold_topics": "judge_topics"})
     path = RESULTS_DIR / "topic_judge.csv"
     return pd.read_csv(path) if path.exists() else None
 
 
-def _write_report(predictions: dict[str, pd.DataFrame], judge: pd.DataFrame | None) -> None:
+def _write_report(predictions: dict[str, pd.DataFrame], judge: pd.DataFrame | None, split: str) -> None:
     first = next(iter(predictions.values()))
-    split = first["split"].iloc[0]
+    split_label = first["split"].iloc[0]
+    gold_labels = GOLD_LABELS_YOUTUBE if split == "youtube" else GOLD_LABELS_PUBLIC
 
     lines: list[str] = []
     lines.append("# Pipeline Evaluation")
     lines.append("")
     lines.append(f"Date: {date.today().isoformat()}")
-    lines.append(f"Split: **{split}** ({len(first)} rows)")
+    lines.append(f"Split: **{split_label}** ({len(first)} rows)")
     if judge is None:
         lines.append("")
-        lines.append("_Topic metrics skipped — `results/topic_judge.csv` not found._")
+        lines.append("_Topic metrics skipped — no gold topics available._")
     lines.append("")
 
     # Headline table
@@ -135,7 +163,7 @@ def _write_report(predictions: dict[str, pd.DataFrame], judge: pd.DataFrame | No
         if setup not in predictions:
             continue
         df = predictions[setup]
-        m = _per_slice_table(df)
+        m = _per_slice_table(df, gold_labels)
         rate, cost = _llm_stats(df)
         topic_f1 = "—"
         if judge is not None:
@@ -159,7 +187,7 @@ def _write_report(predictions: dict[str, pd.DataFrame], judge: pd.DataFrame | No
         if setup not in predictions:
             continue
         df = predictions[setup]
-        m = _per_slice_table(df).round(3)
+        m = _per_slice_table(df, gold_labels).round(3)
         rate, cost = _llm_stats(df)
         lines.append(f"## Setup {setup}")
         lines.append("")
@@ -175,7 +203,7 @@ def _write_report(predictions: dict[str, pd.DataFrame], judge: pd.DataFrame | No
             sub = df[df["slice"] == slice_name]
             lines.append(f"**{slice_name}**")
             lines.append("")
-            lines.append(_confusion(sub).to_markdown())
+            lines.append(_confusion(sub, gold_labels).to_markdown())
             lines.append("")
         if judge is not None:
             lines.append("### Topic metrics")
@@ -183,15 +211,20 @@ def _write_report(predictions: dict[str, pd.DataFrame], judge: pd.DataFrame | No
             lines.append(_topic_table(df, judge).round(3).to_markdown())
             lines.append("")
 
-    out_path = RESULTS_DIR / "metrics.md"
+    out_name = "metrics_youtube.md" if split == "youtube" else "metrics.md"
+    out_path = RESULTS_DIR / out_name
     out_path.write_text("\n".join(lines), encoding="utf-8")
     print(f"wrote {out_path}")
 
 
 def main() -> None:
-    predictions = _load_predictions()
-    judge = _load_judge()
-    _write_report(predictions, judge)
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--split", choices=("dev", "test", "youtube"), default="dev")
+    args = ap.parse_args()
+
+    predictions = _load_predictions(args.split)
+    judge = _load_judge(args.split, predictions)
+    _write_report(predictions, judge, args.split)
 
 
 if __name__ == "__main__":
