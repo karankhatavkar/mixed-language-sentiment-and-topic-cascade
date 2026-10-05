@@ -48,3 +48,9 @@ TOPIC_SCORE_CUTOFF = 0.5      # rule 3: route if no topic score >= X
 GEMINI_PIPELINE_MODEL = "gemini-3.5-flash-lite"
 GEMINI_JUDGE_MODEL = "gemini-3.1-pro-preview"
 PROMPT_VERSION = "v2"  # v2: dropped the fashion-brand framing so public-dataset posts aren't shoehorned
+
+# Approx $/call for a 400-in/50-out post, from the pricing in the Part B spec.
+# Flash-Lite:  $0.30/M in + $2.50/M out  -> ~0.00012 + ~0.000125 = ~0.00025
+# Pro:         $2.00/M in + $12.00/M out -> ~0.00080 + ~0.000600 = ~0.00140
+COST_PER_CALL_PIPELINE = 0.00025
+COST_PER_CALL_JUDGE = 0.00140

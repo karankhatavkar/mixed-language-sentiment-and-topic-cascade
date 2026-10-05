@@ -117,13 +117,19 @@ def _cache_key(model: str, post_id: str) -> str:
 
 # ----- call -----------------------------------------------------------------
 
-def _call(model: str, system_instruction: str, user_text: str, schema: type[BaseModel]) -> dict:
+def _call(
+    model: str,
+    system_instruction: str,
+    user_text: str,
+    schema: type[BaseModel],
+    thinking_level: types.ThinkingLevel,
+) -> dict:
     cfg = types.GenerateContentConfig(
         system_instruction=system_instruction,
         temperature=0,
         response_mime_type="application/json",
         response_json_schema=schema.model_json_schema(),
-        thinking_config=types.ThinkingConfig(thinking_level=types.ThinkingLevel.MINIMAL),
+        thinking_config=types.ThinkingConfig(thinking_level=thinking_level),
     )
     resp = _get_client().models.generate_content(model=model, contents=user_text, config=cfg)
     return schema.model_validate_json(resp.text).model_dump()
@@ -137,19 +143,24 @@ def classify_pipeline(post_id: str, text: str) -> dict:
     key = _cache_key(GEMINI_PIPELINE_MODEL, post_id)
     if key in cache:
         return cache[key]
-    result = _call(GEMINI_PIPELINE_MODEL, _PIPELINE_SYSTEM, text, PipelineResponse)
+    result = _call(GEMINI_PIPELINE_MODEL, _PIPELINE_SYSTEM, text, PipelineResponse,
+                   thinking_level=types.ThinkingLevel.MINIMAL)
     cache[key] = result
     _save_cache()
     return result
 
 
 def classify_judge(post_id: str, text: str) -> dict:
-    """Topics only (Gemini Pro judge)."""
+    """Topics only (Gemini Pro judge).
+
+    Pro rejects MINIMAL — LOW is the lowest level it accepts.
+    """
     cache = _load_cache()
     key = _cache_key(GEMINI_JUDGE_MODEL, post_id)
     if key in cache:
         return cache[key]
-    result = _call(GEMINI_JUDGE_MODEL, _JUDGE_SYSTEM, text, JudgeResponse)
+    result = _call(GEMINI_JUDGE_MODEL, _JUDGE_SYSTEM, text, JudgeResponse,
+                   thinking_level=types.ThinkingLevel.LOW)
     cache[key] = result
     _save_cache()
     return result

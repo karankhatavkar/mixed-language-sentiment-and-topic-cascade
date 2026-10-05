@@ -1212,5 +1212,3705 @@
       "product_praise"
     ],
     "reason": "Short positive comment praising the brand"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_001": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses high praise and excitement for a music event"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_002": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Describes Lady Gaga being delighted with a gift"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_003": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses strong disapproval of others' musical choices."
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_004": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses strong admiration and excitement about appearing guests."
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_005": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual statement about attending an upcoming concert"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_006": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Discussing geopolitical and societal reactions without expressing personal sentiment."
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_007": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Excited announcement about being in a new film."
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_008": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing sadness and grief about someone named Jacob"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_009": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Frustrated complaint advising people not to buy the pay-per-view fight"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_010": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Discussing television show casting and character dynamics objectively"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_011": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Criticism of poor play selection during a football game"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_012": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses anger at Fox Chicago for broadcasting a less desirable game over the championship rematch"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_013": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses excitement and celebration for Cinco De Mayo"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_014": {
+    "sentiment": "negative",
+    "sarcasm": true,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sarcastic commentary on political leadership"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_015": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Complaining about the NHL lockout and inability to watch games"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_016": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Asking a question about a sports lineup without expressing sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_017": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses admiration for Karina Smirnoff's appearance and dress"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_018": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Discusses constitutional law regarding voting rights and gay marriage"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_019": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Objective reporting on political news without personal sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_020": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Comparative observation about standardized tests"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_021": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Informational promotional post about a podcast episode"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_022": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A humorous observation about days of the week and mythology"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_023": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Excitement about the upcoming weekend and concert"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_024": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "User expresses excitement and being hooked immediately on the first episode"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_025": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "An inviting and upbeat announcement about a church ministry gathering"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_026": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Objective reporting of a football match result and standings"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_027": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expressing excitement and enjoyment about cupcakes while jokingly considering eating them all"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_028": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Severe political criticism regarding ISIS and Turkey"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_029": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Excitement and optimism about potentially unblocking Minecraft"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_030": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Serious commentary on poverty and terrorism"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_031": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Supportive and encouraging message for a trip"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_032": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Neutral statement about upcoming movie plans"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_033": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Statement of fact about attending a baseball game"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_034": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Self-deprecating birthday reflection about fame and talent."
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_035": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual reporting on a sports match result without emotional bias"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_036": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual reporting on a tennis match result"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_037": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Exciting invitation to a promotional event with a prize"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_038": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong criticism of the UFC management and Dana White"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_039": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Promotional announcement for an upcoming event"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_040": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Critical of a politician's stance on reproductive healthcare"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_041": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing a news clip regarding a celebrity political run without personal sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_042": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing concern and disturbance over a serious legal and ethical issue involving an athlete."
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_043": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing a neutral sports prediction and poll statistic"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_044": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Speculative comment about a wrestling event appearance."
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_045": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Critical commentary on a player's stats against a poor pitching staff."
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_046": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A lighthearted pop culture comment with no strong positive or negative emotion."
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_047": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "price"
+    ],
+    "reason": "Sharing a good deal on a food item"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_048": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Objective reporting of a political statement"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_049": {
+    "sentiment": "negative",
+    "sarcasm": true,
+    "topics": [
+      "other"
+    ],
+    "reason": "Spam message promoting a sketchy free iPad offer with a suspicious link"
+  },
+  "gemini-3.5-flash-lite::v2::english_dev_050": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Objective reporting of a public apology news event"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_001": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A prayer for help and mercy for the people of Aleppo"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_002": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Informational post about Google smart home features without clear positive or negative sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_003": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "News report about the anniversary of al-Durrah's death and Israel's stance"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_004": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual description of a product without expressed opinion."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_005": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "delivery",
+      "product_praise"
+    ],
+    "reason": "Praising a clever furniture moving tool found on Amazon with direct shipping."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_006": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Reporting tragic casualties of children in Syria due to regime bombings."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_007": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expressing extreme desire to own the product despite its age"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_008": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Reporting on the devastating destruction caused by airstrikes in Aleppo"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_009": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A factual news retweet regarding the US Congress rejecting Iran's WTO membership"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_010": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing a Quranic verse with a hashtag related to Real Madrid"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_011": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing a sports news headline about a player injury without expressing personal opinion."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_012": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Severe political criticism of the Iranian government"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_013": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Reporting on a horrific terrorist act involving victims"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_014": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Celebrity sharing personal preferences about football players and teams"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_015": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "News report regarding political and military statements in Syria"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_016": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Retweet of a news statement about a gas agreement without personal opinion."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_017": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A religious reminder about fasting with a weather update"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_018": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Reports on the unresolved and growing unemployment crisis in Iran"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_019": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Informational announcement about a new Windows 10 app."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_020": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Political quote regarding events in Syria"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_021": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing news about a leaked image of Windows Phone 10 without emotional expression"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_022": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expresses strong excitement and love for the Harry Potter series"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_023": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Praising Pique for a notable passing record with Barcelona"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_024": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A neutral question asking for opinions on tennis players Federer and Nadal dropping out of the top 5"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_025": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "price",
+      "other"
+    ],
+    "reason": "Factual announcement about the Google Daydream VR headset price and colors"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_026": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Informative tech tip about phone privacy without expressing emotion"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_027": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "News report about a public figure's behavior"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_028": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The user expresses amusement and enjoyment over a video criticizing a public figure."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_029": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expressing an enthusiastic and emotional desire for an iPhone."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_030": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Frustration with the chaotic screen layout in Android"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_031": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual share of a product link without opinion"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_032": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Informative news update regarding a player's participation chances."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_033": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Mentioning political figures without expressing a clear sentiment."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_034": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Political criticism directed at Egypt's leadership"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_035": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A brief query about Justin Bieber without strong sentiment."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_036": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "News headline about Google phones without subjective opinion"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_037": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "High praise for Messi, calling him the best Champions League player in history."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_038": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual news report about a ballistic missile interception"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_039": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing joy and happiness about listening to Justin Bieber"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_040": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Political commentary regarding Saudi Arabia and Egypt relations"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_041": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing frustration about finding annoying things on Amazon"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_042": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Political criticism regarding foreign policy and terrorism"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_043": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual statement sharing a football statistic about Ronaldo."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_044": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A personal statement about marriage preferences without clear positive or negative sentiment."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_045": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Promotional tweet for a contest with rules and prizes"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_046": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Informative news update about game updates without expressing personal opinion."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_047": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Informational post about Federer's schedule and potential participation in a tournament"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_048": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A neutral social media share referencing an article title and hashtags about Amazon"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_049": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Praising a player's crucial contributions in recent matches"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_dev_050": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual news report about the US presidential race"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_001": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing deep affection and love for someone"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_002": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "sizing",
+      "product_praise"
+    ],
+    "reason": "Expresses admiration and love for how the leggings fit"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_003": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Observational comment about a map in a video game"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_004": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expresses affection and appreciation in a short positive remark"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_005": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "User is stating they came because of the mention of BTS and ARMY without expressing positive or negative sentiment."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_006": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Affectionate praise for an actor in a series"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_007": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expresses strong appreciation for the sounds in both Arabic and English."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_008": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Complaining that the wifi network is the worst in Egypt"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_009": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The user is casually mentioning their mixed experience with preparing ads without expressing strong positive or negative feelings."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_010": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Ambiguous statement with no clear positive or negative sentiment regarding products or services."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_011": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressions of disgust and criticism regarding a degraded level or standard"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_012": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expressing love and admiration for a TV couple with positive emojis"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_013": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Strong praise for the series, its originality, and the cast's performance"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_014": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Mentioning the movie Wrath of Man without expressing a strong opinion."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_015": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "The user expresses genuine liking for a song heard on a show."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_016": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Frustrated complaint about the YouTuber not reviewing a specific show"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_017": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Strong expression of affection and love"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_018": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Frustrated and aggressive question about who disliked the content"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_019": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses strong admiration and praise for the product"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_020": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong dislike expressed towards a celebrity and her interviews."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_021": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Encouraging and praising comment looking forward to a top Moroccan song"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_022": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing confusion about why something received dislikes"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_023": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Observational comment about a borrowed melody"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_024": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A friendly request for channel support"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_025": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Strong affection and praise expressed for Sherihan and the Vodafone advertisement"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_026": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expressing love for the content"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_027": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Neutral observation about a reference to a movie quote"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_028": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Asking a casual question about skipping an interview segment"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_029": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses strong love and pride for Algeria with positive emojis"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_030": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Accusing people of lying and calling their stories nonsense"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_031": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Frustration with the unrealistic medical plot of a movie about Alien Hand Syndrome"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_032": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Observational comment on language mixing without expressing strong positive or negative feelings"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_033": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expressing love and appreciation for a specific BIG cover with positive emojis"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_034": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing disbelief that anyone could dislike the song, showing strong approval"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_035": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses admiration and love for actors in an advertisement and show"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_036": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A creator asking for channel subscriptions and support for gaming content"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_037": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressed frustration and annoyance towards people leaving dislikes on a video."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_038": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expressing admiration and joy for the artist's return"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_039": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A humorous observation about users mistakenly clicking the dislike button thinking it is the download button"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_040": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Severe criticism of the advertisement quality and visual effects"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_041": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Complimenting the artist's emotional voice and wishing them good luck"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_042": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The user is asking for a movie summary video without expressing any specific sentiment."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_043": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses strong love and admiration for the actor from fans in Saudi Arabia"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_044": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing an informational video link without expressing personal opinion."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_045": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "User is asking for views on their YouTube page."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_046": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "quality",
+      "other"
+    ],
+    "reason": "Accusing a song of being a direct copy and stolen melody from an Italian song."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_047": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Encouraging people to subscribe to a YouTube channel with expressions of love."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_048": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Reference to a Facebook group with no clear sentiment or product context"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_049": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expressing deep affection and pride for the company and an individual involved in the ad."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_dev_050": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Short positive statement praising the product in Arabic and English."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_001": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong criticism of the political cabinet appointments"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_002": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong annoyance expressed about the movie soundtrack choice"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_003": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "customer_service",
+      "other"
+    ],
+    "reason": "Reporting the unavailability of essential child vaccines at a hospital"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_004": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "User is entertained and laughing while watching a video"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_005": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "General conversational prompt seeking opinions"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_006": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "price",
+      "other"
+    ],
+    "reason": "Promotional post offering discount codes for a holiday sale"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_007": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Reports on hospitals being terrorized in Yemen"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_008": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing excitement and anticipation about an upcoming event"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_009": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Engaged and enjoying the reading material"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_010": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong condemnation of media and political conspiracy"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_011": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing regret over a leader's death and criticizing his successor"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_012": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses admiration and appreciation for the Obama family"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_013": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Discussing a political speech controversy without strong personal sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_014": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "High praise expressing admiration for the TV show."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_015": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Accuses a public figure of hypocrisy regarding past statements and actions."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_016": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses disappointment over the lack of exclusive games"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_017": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A neutral observation about fan reactions to a TV show plot point"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_018": {
+    "sentiment": "negative",
+    "sarcasm": true,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sarcastic remark criticizing the Colts backup quarterback"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_019": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual news report about stranded immigrants"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_020": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Accusatory political remark"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_021": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Agreement and friendly discussion about dietary choices"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_022": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Warm and affectionate blessing expressing strong positive feelings."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_023": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A neutral reference to a basketball referee call and a coach"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_024": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Frustrated criticism of a public figure's political views"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_025": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Joking question with playful emojis"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_026": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A simple observational statement without strong sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_027": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing a personal ranking list of characters from a television show."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_028": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Irrelevant commentary on political and cultural topics"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_029": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses strong disapproval and disbelief about a political appointment"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_030": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Praising a remix video with enthusiastic language"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_031": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Philosophical quote about mental acceptance without positive or negative emotional bias"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_032": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Hostile statement expressing a desire to physically harm specific individuals"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_033": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A political address with random hashtags containing no clear sentiment."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_034": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong political condemnation of regional actors and the Syrian regime"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_035": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Hateful statement wishing death upon someone over a healthcare classification"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_036": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong condemnation and moral outrage directed at a group's identity"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_037": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Praising Real Madrid for having the best players and winning"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_038": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Reference to a political public figure and cultural event without expressing explicit sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_039": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Frustrated comment regarding ongoing legal cases and political administration stance"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_040": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing a craving for food"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_041": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Hostile political rant attacking various figures and movements"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_042": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong political stance expressing opposition to gun control"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_043": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A neutral basketball-related comparison."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_044": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Post references euthanasia and barbiturates in a concerning manner"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_045": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses excitement and high praise for a player named Hutchison joining Pittsburgh"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_046": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses strong opposition to perceived government cuts"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_047": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Automated music broadcast share without personal sentiment."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_048": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Spam or promotional social media post with hashtags"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_049": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A neutral descriptive statement about a TV show plot point"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_050": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong political criticism expressing negative sentiment toward leadership."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_051": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Warm and affectionate message expressing gratitude and love"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_052": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Critical political comment expressing disapproval of buyers and business deals."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_053": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Critical statement about the impact of a past administration on the country."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_054": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses strong appreciation and enjoyment for the performance."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_055": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Informational tweet announcing a panelist at an event"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_056": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong anger and hostility expressed towards a political figure"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_057": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Offensive generalization comparing single mothers to white supremacists"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_058": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A neutral question posing a metaphor about politics and food."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_059": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A casual comment about someone singing with a random political hashtag"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_060": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "The user explicitly states they liked the video."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_061": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses enthusiasm about a potential player trade and his skills"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_062": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressed political dissatisfaction and intention to voice displeasure to a politician"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_063": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses annoyance and criticism toward people who are complaining about a public figure"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_064": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "The user expresses genuine enthusiasm about the movie Fantastic Beasts."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_065": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Objective reporting on the ongoing Cuban embargo and slow trade growth."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_066": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing an informative slideshow about self-driving cars without expressing a strong opinion"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_067": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong condemnation of political leadership exploiting deaths"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_068": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses a desire for the semester to end to relax"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_069": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "customer_service",
+      "other"
+    ],
+    "reason": "Frustration over lack of help or response from the administration"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_070": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Casual sports or travel related statement"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_071": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Aggressive defense of Grayson Allen"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_072": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Headline discussing public figures without emotional polarity"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_073": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Commentary on an individual dropping a political label"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_074": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "The user expresses love and enthusiasm for trying out the VR experience."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_075": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Commentary on the electoral process without strong emotional polarity"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_076": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Warning against a political figure"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_077": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual statement providing political information."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_078": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong political opposition and call to action against Trump"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_079": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Accusatory political statement about protests"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_080": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Highly charged political criticism condemning left-wing figures and groups"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_081": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses concern over a military threat"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_082": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses joy and high praise for the player's return."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_083": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing a personal thought about exploring veganism and diet changes."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_084": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expresses strong admiration for a specific song"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_085": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expressing strong admiration and attraction towards the celebrity."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_086": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses strong anger over political violence and perceived hypocrisy"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_087": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing gratitude and appreciation for Grayson Allen"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_088": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expressing that the song is a favorite"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_089": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Political commentary on a legislative flashback"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_090": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing a lighthearted social media trend video without any strong positive or negative emotion."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_091": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Critical commentary on political discourse and inequality"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_092": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "User expressed liking a video about software."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_093": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Critical commentary on political diplomacy and foreign policy"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_094": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses serious concern and urgency regarding a humanitarian conflict"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_095": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Asking a straightforward question about the release of a theme in a specific region."
+  },
+  "gemini-3.5-flash-lite::v2::english_test_096": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Nonsensical and incoherent social media post"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_097": {
+    "sentiment": "negative",
+    "sarcasm": true,
+    "topics": [
+      "price",
+      "other"
+    ],
+    "reason": "Sarcastic regret over spending money on fast food before a flight"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_098": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Critical political comment about the GOP"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_099": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual announcement of an author reading at an event"
+  },
+  "gemini-3.5-flash-lite::v2::english_test_100": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Critique of political views and religious alignment"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_001": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A factual news report about international reactions to the situation in Aleppo."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_002": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "News report about a military plane accident without personal sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_003": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual news report about an official visit"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_004": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Praising Nadine Njeim as a queen in polls with supportive crown emojis"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_005": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing random personal habits and preferences in a casual manner"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_006": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Reporting a political statement without expressing personal sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_007": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A factual or neutral political quote regarding the formation of the government."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_008": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sweet and warm bedtime greeting to followers"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_009": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Objective reporting of celebrity news without expressing personal sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_010": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Violent threats and abusive language."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_011": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong condemnation of military actions by Iran and Russia in Syria"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_012": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Mentioning an artist without expressing clear sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_013": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing a news link about a celebrity without expressing personal opinion."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_014": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Informational announcement about an upcoming concert event"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_015": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Critical political statement about corruption and the state of Lebanon"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_016": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual sharing of a celebrity news update without positive or negative opinion"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_017": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expressing admiration and compliments"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_018": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Friendly and enthusiastic call to vote for a celebrity"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_019": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing an article or legal reading regarding enforced disappearance in Bahrain"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_020": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A neutral news headline reporting on Ramos contract conditions with Real Madrid"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_021": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "News headline reporting an event without taking a positive or negative stance"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_022": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A factual statement about political figures and their urgency to start building work in Lebanon"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_023": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A political statement regarding alliances without explicit positive or negative product sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_024": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Criticizing someone for anti-Muslim campaigns regarding religious slaughter"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_025": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual news report regarding a statement by a Turkish foreign ministry official."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_026": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Objective sharing of an event exhibition"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_027": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A neutral news update about a celebrity"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_028": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Informational post about book availability at a fair"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_029": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A factual quote or news statement about a politician's term"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_030": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses high admiration and affection using a positive phrase"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_031": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing an inspiring fact about successful people who dropped out of university"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_032": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Critical political comment regarding the Syrian regime and international meetings."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_033": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A factual statement about a political figure's movements without expressing sentiment."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_034": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Highlighting a negative social issue in the West regarding protests against rape cases"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_035": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "delivery",
+      "other"
+    ],
+    "reason": "Complaining that the weather news is always late and lacks a reliable source"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_036": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Reporting on a corruption conviction of a public official"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_037": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expressing deep admiration and compliments towards Nadine Njeim"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_038": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "News report regarding political statements without emotional bias"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_039": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "customer_service",
+      "other"
+    ],
+    "reason": "Complaining about the lack of official Apple support and stores in the Arab world outside the UAE"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_040": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A factual news headline sharing a celebrity video"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_041": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Criticism of foreign military interventions and economic decline"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_042": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A factual news report about an upcoming economic deal between Australia and France"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_043": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Appreciative post sharing lavender fields in France with travel tags."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_044": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Warm and affectionate praise for the celebrity"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_045": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "News report about Lavrov's statement regarding the Syrian crisis"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_046": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing a news video title about people arrested for Facebook posts."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_047": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A brief, factual mention of a location."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_048": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual news update about an artist releasing an album from Lebanon"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_049": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "delivery"
+    ],
+    "reason": "Traffic report providing objective information on road conditions"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_050": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Amused observation about a currency named like Ricky Martin"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_051": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Enthusiastic expression of support and admiration for the celebrity"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_052": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual news reporting about an actress's statement."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_053": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing a news video about political events without expressing personal opinion."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_054": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses admiration and praise for the celebrity"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_055": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Asking a neutral question about a political figure without expressing personal sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_056": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressed strong frustration and insult towards the content shown on the platform"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_057": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing disappointment and frustration directed at Egypt"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_058": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual news report about a scheduling change for a political meeting."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_059": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing information about the guests on a new TV program"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_060": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing a personal musical preference without positive or negative evaluation"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_061": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A casual remark about the weather and a celebrity."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_062": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A friendly reminder about a forgotten artist with no strong sentiment."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_063": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual news report about a UN Security Council decision regarding Aleppo."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_064": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses admiration and excitement for the artist before her performance"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_065": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Reporting a tragic execution by ISIS"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_066": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Praising the return of the artist to her glory"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_067": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong condemnation of political and religious figures"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_068": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Informational announcement about an artist's concert event."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_069": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Political critique of the Lebanese government formation through a metaphorical nightclub scene"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_070": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing personal profile pictures and a funny observation without expressing positive or negative feedback on a product or service"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_071": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong condemnation and accusation of betrayal regarding political events in Aleppo"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_072": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Informative news announcement about a film launch and celebrity interactions"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_073": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "News report about people trapped in the snow in Lebanon"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_074": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Excited announcement about Myriam Fares performing on stage"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_075": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Asking a factual question about a TV show and actors"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_076": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Disapproving comment about a celebrity marriage"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_077": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual traffic update about road conditions in Lebanon."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_078": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Hostile comment criticizing a celebrity"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_079": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Political analysis of geopolitical strategy without personal sentiment."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_080": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual news report about the extension of economic sanctions."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_081": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A humorous social media post comparing cultural news between Lebanon and Syria."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_082": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Laughter emojis and enthusiastic labeling praising the actress"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_083": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "An open letter or message addressed to the president recalling past events without expressing explicit positive or negative consumer feedback."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_084": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses trust, love, and high praise for the political figure Michel Aoun"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_085": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A promotional announcement for a TV show"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_086": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Complaining about the timing of a Real Madrid match"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_087": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expressing strong love and admiration for the celebrity and her work"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_088": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expressing deep admiration and love for the celebrity's smile"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_089": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Hostile political statement expressing negativity toward Saudi Arabia"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_090": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Informational post about an upcoming television show"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_091": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Political commentary questioning a diplomatic statement without expressing personal praise or complaint."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_092": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing a political statement without expressing personal opinion."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_093": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual news report about an official denial of a secret deal"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_094": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual news report regarding evacuations and political meetings"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_095": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "User expresses enjoyment of a video"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_096": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual news headline about a beauty pageant winner"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_097": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing an article headline asking a critical question about Facebook views without expressing personal sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_098": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Report on political and military exploitation of massacres in Syria."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_099": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Factual news report about a submarine purchase deal."
+  },
+  "gemini-3.5-flash-lite::v2::arabic_test_100": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Strong condemnation of Russia's use of forbidden weapons"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_001": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing disappointment over Gims losing his prestige or status."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_002": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Praising the best comeback"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_003": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses excitement and eager anticipation for the upcoming episode."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_004": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "quality",
+      "other"
+    ],
+    "reason": "Strong criticism of the poor scriptwriting, acting, and overall quality of recent films."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_005": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Friendly and warm greeting from Libya to Egypt"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_006": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Surprise expression without clear positive or negative sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_007": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "The user expresses strong admiration and praise for the artist and the work."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_008": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing admiration and praise from Tunisia"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_009": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses annoyance and insults anyone who pressed unlike"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_010": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expressing deep affection and admiration for the creator and their natural look."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_011": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A neutral question asking about a review for Loki"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_012": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing admiration for a wonderful episode and confusion over dislikes"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_013": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Praising Mohamed Ramadan and the styling enthusiastically"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_014": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Praising the artist with kind words and compliments."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_015": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expressing deep affection and love for Temo."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_016": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Praising something as number one in everything indicates strong approval."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_017": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "The user is praising a song as the most beautiful."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_018": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A nostalgic and humorous reference to an old Egyptian television character involving a robot."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_019": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Promotional message asking users to subscribe to a YouTube channel"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_020": {
+    "sentiment": "mixed",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Loves the song very much but it brought back painful memories of an ex-girlfriend"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_021": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A neutral request to follow a personal channel."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_022": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Friendly invitation to play a video game together"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_023": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Mention of a reaction video to a show trailer without expressing personal opinion."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_024": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Casual social media question about seeing a BTS sign"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_025": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Calling for mass dislikes on a song"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_026": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing strong love and praise for a Vodafone advertisement."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_027": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Asking a question about a cover or video without expressing clear sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_028": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Complaining about people leaving dislikes on a post"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_029": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Asking a neutral question about dislikes on a video"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_030": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing frustration about dislikes on a post"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_031": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing frustration and dismissing people who gave dislikes"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_032": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "High praise for the beauty and genius of the song and music video"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_033": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Asking a straightforward informational question about a TV channel schedule"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_034": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Simple invitation to listen to music and subscribe to the page."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_035": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses strong praise for a song and sends warm greetings between nations."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_036": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing strong frustration over fake and paid audiences in talk shows"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_037": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other",
+      "customer_service"
+    ],
+    "reason": "Complaining about poor app performance, expensive internet, and wishing for free streaming on YouTube or watch it."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_038": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses praise for the advertisement"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_039": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Casual and unrelated personal statement"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_040": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing a link of BTS singing a song without expressing positive or negative opinion"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_041": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The user is dismissing the concept of EQ and insulting the poster directly."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_042": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A casual question about YouTube platform features"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_043": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A neutral question asking about DNA testing availability."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_044": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing dislike for two public figures."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_045": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Simple statement about watching a movie without expressing positive or negative opinion"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_046": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Compliments the user directly with best wishes"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_047": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "High praise for an advertisement and its song, expressing joy and admiration."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_048": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Praising the comedic talent and expressing genuine laughter and excitement for the movie"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_049": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "quality",
+      "other"
+    ],
+    "reason": "The user expresses dissatisfaction with the lack of originality and overall video quality."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_050": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Complaining about people not appreciating art"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_051": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Praising a romantic song and recommending an educational YouTube channel"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_052": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Praising the singer's voice and wonderful emotion in Arabic"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_053": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "High praise and appreciation for the Vodafone advertisement starring Sherihan."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_054": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Joyful laughter and affectionate praise indicating high positivity"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_055": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Aggressive and derogatory question directed at people who disliked the content"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_056": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing disapproval of toxic behavior in a relationship or situation"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_057": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expressing love and high praise for a Ramadan show"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_058": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Observational comment about the people in the video without clear positive or negative sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_059": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses strong approval or excitement"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_060": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "High praise for the artist's songs, melody, lyrics, and emotion."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_061": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "customer_service"
+    ],
+    "reason": "Strong negative expression about the telecommunications company WE"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_062": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses affection and asks for specific content to be made"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_063": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Extremely enthusiastic celebration of reaching 50 million views"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_064": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Affectionate and complimentary language praising someone or something"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_065": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "High praise for the product and expression of love for the brand in both English and Arabic"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_066": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "price"
+    ],
+    "reason": "Promotional post sharing a discount code to save money on shopping."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_067": {
+    "sentiment": "negative",
+    "sarcasm": true,
+    "topics": [
+      "other"
+    ],
+    "reason": "Frustrated complaint about poor episode video quality with sarcastic tone"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_068": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Extremely high praise for the movie, stating it deserves an Oscar"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_069": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Timestamps and names of musical pieces provided objectively."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_070": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing love and affection in Arabic and English"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_071": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses affection and fandom for a celebrity"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_072": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A playful comparison between different music artists."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_073": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing a casual quote or thought without strong positive or negative emotion."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_074": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Asking a question in Arabic about people who made dislikes without expressing a clear positive or negative sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_075": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Announcing the availability of artist videos and news"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_076": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Shares a gaming tip for PUBG Mobile without expressing strong personal sentiment."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_077": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Strong praise and admiration for a person or product"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_078": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Asking a neutral question about why a video has many dislikes"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_079": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The user is asking about the movie or character Venom without expressing a clear sentiment."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_080": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expresses strong approval and liking for the product using enthusiastic words and emojis."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_081": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Casual conversational post asking if anyone else listens to BTS"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_082": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Amused observation about people shopping from the same place without expressing direct praise or criticism."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_083": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Friendly and affectionate request to subscribe with positive emojis"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_084": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing disapproval of people leaving dislikes"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_085": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Praising a well-known celebrity or artist using a famous nickname"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_086": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Criticizing someone for associating with artists from the occupation"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_087": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Strong praise for the song calling it the hit of the season"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_088": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expresses strong admiration and love with heart emojis"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_089": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other",
+      "customer_service"
+    ],
+    "reason": "Severe criticism of network quality and company spending on advertisements."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_090": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Strong expression of affection and praise in Arabic and English."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_091": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A simple call-to-action asking fans of an artist to like the post."
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_092": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Praising the song and its Spanish vibe"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_093": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing annoyance towards people who disliked the content"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_094": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Disliking the content due to annoyance with specific people"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_095": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expressing dislike for a character played by Mona Zaki"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_096": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Mentions a resemblance to a song track without positive or negative evaluation"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_097": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Friendly and warm message expressing love for Egyptians and asking for channel subscriptions"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_098": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "General inquiry about shipping to the USA"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_099": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Asking a question about a potential resemblance or imitation without clear positive or negative sentiment"
+  },
+  "gemini-3.5-flash-lite::v2::mixed_test_100": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Praising the amazing lyrics by Ahmed El Malki"
+  },
+  "gemini-3.1-pro-preview::v2::english_test_001": {
+    "topics": [
+      "other"
+    ]
+  },
+  "gemini-3.1-pro-preview::v2::english_test_002": {
+    "topics": [
+      "other"
+    ]
+  },
+  "gemini-3.1-pro-preview::v2::english_test_003": {
+    "topics": [
+      "other"
+    ]
+  },
+  "gemini-3.1-pro-preview::v2::english_test_004": {
+    "topics": [
+      "other"
+    ]
+  },
+  "gemini-3.1-pro-preview::v2::english_test_005": {
+    "topics": [
+      "other"
+    ]
+  },
+  "gemini-3.1-pro-preview::v2::english_test_006": {
+    "topics": [
+      "price"
+    ]
+  },
+  "gemini-3.1-pro-preview::v2::english_test_007": {
+    "topics": [
+      "other"
+    ]
+  },
+  "gemini-3.1-pro-preview::v2::english_test_008": {
+    "topics": [
+      "other"
+    ]
+  },
+  "gemini-3.1-pro-preview::v2::english_test_009": {
+    "topics": [
+      "other"
+    ]
   }
 }
