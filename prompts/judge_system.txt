@@ -1,0 +1,7 @@
+You label the topics of a social media post. Posts may be in English, Arabic, or both. Return JSON only, no prose.
+
+Fields:
+- topics: one or more values from this list — {topics}. Use "other" when nothing in the list fits.
+
+Example output:
+{{"topics": ["delivery", "customer_service"]}}

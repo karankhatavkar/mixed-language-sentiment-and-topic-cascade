@@ -1,0 +1,1216 @@
+{
+  "gemini-3.5-flash-lite::v1::english_dev_001": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Praises the artist with high enthusiasm"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_001": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A personal prayer for the people of Aleppo, unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_001": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expresses strong affection and love for the brand and staff."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_002": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Reports a news event about Lady Gaga receiving a gift"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_003": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post expresses a personal opinion about music festival headliners and is unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_004": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expresses strong admiration and attraction towards the individuals"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_005": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sharing concert attendance information unrelated to fashion."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_006": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Discusses political and social reactions to terrorism, unrelated to a fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_007": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses excitement about being in an upcoming film."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_008": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Personal conversation unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_009": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Complains about a boxing match and urges people not to pay for it"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_010": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Discusses a television show cast dynamic without expressing brand-related sentiment"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_011": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Criticizes the poor play selection by the team"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_012": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Complains about the TV broadcast schedule instead of the expected fashion brand context"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_013": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Personal statement about holidays with no relation to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_014": {
+    "sentiment": "negative",
+    "sarcasm": true,
+    "topics": [
+      "other"
+    ],
+    "reason": "Sarcastic remark about George Osborne being a future Prime Minister"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_015": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses frustration about the NHL lockout and inability to watch games."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_016": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Asks a question about a sports lineup unrelated to fashion"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_017": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Praises Karina Smirnoff's appearance in the dress"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_018": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Discusses constitutional law regarding amendments without expressing a fashion-related opinion."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_019": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Political news article about Angela Merkel and Brazil regarding the Amazon rainforest, unrelated to a fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_020": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Compares standardized tests without mentioning a fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_021": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Shares a promotional link for a wrestling newsletter without expressing personal opinion."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_022": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post makes a joke about the day of the week and mythology, unrelated to brand performance."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_023": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post discusses weekend plans and a concert with no mention of the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_024": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses excitement and being hooked on the show from the first episode"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_025": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Announcement about a church ministry meeting and hangout."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_026": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post discusses a football match score and league standings, unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_027": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Mentions buying cupcakes and contemplates eating them all alone"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_028": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post discusses political and security matters unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_029": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses excitement about potentially getting Minecraft unblocked"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_030": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Discusses political and social commentary unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_031": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Friendly and supportive message wishing someone a good trip."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_032": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post discusses movie plans and is unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_033": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post discusses attending a baseball game and mentions a player, unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_034": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post is a personal reflection on birthdays and famous anniversaries, unrelated to the brand."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_035": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Reports on a tennis match result without expressing personal opinion or discussing the brand."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_036": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Reports on a tennis match result without expressing brand-related sentiment"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_037": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Invites people to an event with a chance to win a car"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_038": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses strong disapproval of UFC management by Dana White"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_039": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Promotes an upcoming event and ticket sales without expressing a specific opinion or review."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_040": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post criticizes a political figure regarding women's healthcare access and is unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_041": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Shares a political news headline unrelated to the brand"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_042": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses concern and moral outrage over a serious off-field issue involving a player"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_043": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post discusses football league predictions and polls, unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_044": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post discusses a wrestling event or rumor unrelated to fashion."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_045": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Commentary on baseball player statistics and team performance unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_046": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A casual remark about David Bowie's fashion style with no direct brand feedback"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_047": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Mentions a restaurant meal and price unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_048": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post discusses political news regarding refugees rather than a fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_049": {
+    "sentiment": "negative",
+    "sarcasm": true,
+    "topics": [
+      "other"
+    ],
+    "reason": "Spam message promoting a suspicious link with sarcastic phrasing"
+  },
+  "gemini-3.5-flash-lite::v1::english_dev_050": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post discusses a celebrity news event unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_002": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Shares general news about Google smart home technology without expressing brand sentiment."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_003": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A news headline about a historical political event unrelated to the brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_004": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Shares a neutral link about an electronic candle for Apple users"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_005": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Shares a helpful video about furniture moving straps with an Amazon link"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_006": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post contains a news statistic about casualties in Syria and is unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_007": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses extreme desire to own the brand's product even if it is old"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_008": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Reports on devastating airstrikes in Aleppo"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_009": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Shares a political news update about the US Congress and Iran without expressing any personal sentiment toward the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_010": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Quranic verse quoted with a football hashtag"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_011": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Shares sports news unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_012": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A retweet of a political news headline regarding Iran and Rouhani's government, unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_013": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Post contains extremely violent content unrelated to fashion."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_014": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A retweet sharing a celebrity interview statement about football preferences without expressing an opinion on the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_015": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A news report about political and military statements regarding Syria without expressing brand-related sentiment."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_016": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Political news post unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_017": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Religious reminder about fasting with no mention of the brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_018": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Shares a news headline about unemployment rates without expressing an opinion on the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_019": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post is a neutral announcement about an internet speed testing app availability on Windows 10."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_020": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Political statement unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_021": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Shares a leaked image of icons without expressing praise or criticism about a fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_022": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses strong excitement and longing for the Harry Potter collection"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_023": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Shares a sports statistic about a football player unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_024": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Asks a general question about tennis players ranking without expressing brand sentiment."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_025": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "price",
+      "other"
+    ],
+    "reason": "Shares factual information about the product pricing and colors"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_026": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "General tech privacy tip unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_027": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post shares a news video link about a political figure and is unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_028": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses amusement and joy over a viral video criticizing a public figure."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_029": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "User is expressing a personal wish for an iPhone unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_030": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Complains about the overwhelming number of screens and lack of layout management in Android"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_031": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Shares a product link without expressing any sentiment."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_032": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post discusses De Bruyne's chances of playing against Barcelona and is unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_033": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post is unrelated to the fashion brand and mentions political figures."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_034": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Political commentary unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_035": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post mentions Justin Bieber and a link without expressing any clear sentiment about the brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_036": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "News headline reporting on new phone storage features without expressing personal opinion."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_037": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Praises Lionel Messi enthusiastically"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_038": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A news retweet regarding a political or military event unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_039": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Mentions listening to Justin Bieber to feel happy with no relation to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_040": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Political post regarding Saudi Arabia and Egypt, unrelated to fashion"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_041": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Mentioning that various items can be found on Amazon"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_042": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post discusses political and geopolitical matters unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_043": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A factual sports trivia statement unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_044": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post is unrelated to fashion and appears to be a personal ad or spam."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_045": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Promotional contest tweet with no brand opinion"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_046": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Shares tech news about a game update without expressing any opinion."
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_047": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Discusses Federer's schedule and potential participation in Dubai without mentioning the brand"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_048": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Shares a news article link or headline without expressing an opinion"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_049": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Praises a player's decisive contributions in matches"
+  },
+  "gemini-3.5-flash-lite::v1::arabic_dev_050": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Shares political news unrelated to the fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_002": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "sizing"
+    ],
+    "reason": "Praises the fit and appearance of the item"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_003": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post points out a reference to a video game map and is unrelated to the brand"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_004": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses affection for the brand"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_005": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The user is talking about BTS and ARMY without mentioning the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_006": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses strong affection and admiration for Mohamed"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_007": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses admiration for the brand using positive Arabic and English phrases"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_008": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Complains that the wifi network is the worst in Egypt"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_009": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The user is talking generally about watching ads sometimes and not others"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_010": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Insults the brand without specifying a functional issue"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_011": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses strong disgust with emojis and derogatory language"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_012": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses strong love and admiration for the couple/characters"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_013": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Praises the cast and describes the content as inspiring and original in both Arabic and English."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_014": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post discusses a movie and is unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_015": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses admiration for a song heard on a show in 2021"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_016": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "customer_service",
+      "other"
+    ],
+    "reason": "Complains about the creator not reviewing a specific show despite multiple requests"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_017": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expresses strong love and affection for the brand in both Arabic and English"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_018": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses frustration and uses offensive language about people disliking content."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_019": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Praises the item with enthusiastic Arabic and English expressions"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_020": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses strong dislike and frustration towards the person and her interviews"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_021": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses support and suggests a Moroccan song collaboration"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_022": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses confusion about why people are leaving dislikes"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_023": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Accuses the brand of plagiarizing a melody"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_024": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The user is asking for support for their personal channel, which is unrelated to the brand's products or services."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_025": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses strong love and admiration for Sherhan and compliments her appearance in the Vodafone advertisement"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_026": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Expresses strong affection for the brand"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_027": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The user mentions a movie quote and states they will wait and see, expressing a neutral stance."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_028": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Asks a casual question about skipping an interview without expressing positive or negative feelings towards the brand."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_029": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post is a general patriotic expression about Algeria and unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_030": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Accuses the brand or individuals of lying and spreading false stories"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_031": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Discusses a movie plot and medical syndrome without mentioning any fashion brand"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_032": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Discusses linguistic habits without expressing a view on the brand"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_033": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses strong love and affection for the brand/product."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_034": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses disbelief that anyone could dislike the song, showing strong approval"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_035": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Praises the commercial featuring Tamer Hosny and Nelly Karim with great enthusiasm."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_036": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post is asking for support and subscriptions for a gaming channel, which is unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_037": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Complains about rude behavior or dislikes from people regarding the fashion content"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_038": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Expresses excitement and welcome for an artist associated with the brand"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_039": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "A casual observation about people confusing dislike with download"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_040": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Criticizes the poor quality of the advertisement graphics."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_041": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Praises the artist's emotional voice and talent with encouraging words"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_042": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The user is asking for a movie summary video unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_043": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses strong love and support for the brand from Saudi Arabia."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_044": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Spam post sharing an external video link unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_045": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The user is asking for YouTube views, which is unrelated to the fashion brand."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_046": {
+    "sentiment": "negative",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Accuses the brand of copying a melody from an Italian song"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_047": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "Encourages people to subscribe to a YouTube channel and expresses love."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_048": {
+    "sentiment": "neutral",
+    "sarcasm": false,
+    "topics": [
+      "other"
+    ],
+    "reason": "The post is a casual reference to another group and contains no brand sentiment."
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_049": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise",
+      "other"
+    ],
+    "reason": "Expresses strong love and admiration for the brand and the ad"
+  },
+  "gemini-3.5-flash-lite::v1::mixed_dev_050": {
+    "sentiment": "positive",
+    "sarcasm": false,
+    "topics": [
+      "product_praise"
+    ],
+    "reason": "Short positive comment praising the brand"
+  }
+}

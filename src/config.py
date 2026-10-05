@@ -8,6 +8,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = ROOT / "data" / "raw"
 PROCESSED_DIR = ROOT / "data" / "processed"
+RESULTS_DIR = ROOT / "results"
+CACHE_DIR = ROOT / "cache"
+PROMPTS_DIR = ROOT / "prompts"
 
 SEED = 42
 DEV_N = 50
@@ -34,3 +37,14 @@ TOPICS = (
     "other",
 )
 TOPIC_HYPOTHESIS_TEMPLATE = "This post is about {}."
+
+# Routing cutoffs (sweep on dev; set final values here before `--split test`)
+SENTIMENT_CONF_CUTOFF = 0.7   # rule 1: route if xlmr_conf below this
+MIXED_BOTH_CUTOFF = 0.3       # rule 2: route if pos >= X AND neg >= X
+TOPIC_SCORE_CUTOFF = 0.5      # rule 3: route if no topic score >= X
+                              # Also used in Setup A to pick final_topics.
+
+# Gemini
+GEMINI_PIPELINE_MODEL = "gemini-3.5-flash-lite"
+GEMINI_JUDGE_MODEL = "gemini-3.1-pro-preview"
+PROMPT_VERSION = "v2"  # v2: dropped the fashion-brand framing so public-dataset posts aren't shoehorned
