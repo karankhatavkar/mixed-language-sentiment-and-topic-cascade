@@ -25,6 +25,8 @@ Stack is locked unless explicitly changed. Don't propose alternatives without a 
 - Python 3.12 in `.venv/`, managed by `uv`. Install deps with `uv pip install <pkg>` — there is no `pip` inside the venv.
 - No `pyproject.toml` or lockfile yet. Add one before onboarding anyone else.
 - **Pinned:** `datasets<3`. The `cardiffnlp/tweet_sentiment_multilingual` dataset still ships as a loader script, which `datasets>=3` refuses to run. Do not bump without first switching the loader (or vendoring the CSVs).
+- **Pinned:** `transformers<5`. v5.x misidentifies the Cardiff XLM-R model's SentencePiece vocab as a tiktoken file and fails to load the tokenizer. `transformers 4.57.x` works.
+- **Required:** `protobuf` (SentencePiece tokenizer loading needs it) and `sentencepiece` (model vocab).
 
 ## Repo layout
 
