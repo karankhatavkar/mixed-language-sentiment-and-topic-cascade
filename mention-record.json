@@ -1,0 +1,85 @@
+{
+  "ids": {
+    "mention_id": "ig_17998812345678901",
+    "trace_id": "tr_2026-10-04_8f3a91c2",
+    "platform": "instagram",
+    "source_method": "vendor",
+    "vendor_name": "listening_suite",
+    "native_post_id": "17998812345678901",
+    "url": "https://www.instagram.com/p/AbC123xyz/",
+    "content_type": "comment",
+    "parent_id": "ig_17990000000000001",
+    "dup_group_id": null,
+    "is_repost": false
+  },
+  "capture": {
+    "capture_reason": ["keyword_match", "roster_creator"],
+    "matched_keywords": ["brandname", "#brandname_sale"],
+    "brand": "our_brand",
+    "competitors_mentioned": ["competitor_2"],
+    "market": "AE",
+    "is_relevant": true,
+    "relevance_confidence": 0.94
+  },
+  "content": {
+    "text": "Ordered from the sale last week and still nothing 😡 التوصيل بطيء جداً",
+    "text_normalized": "ordered from the sale last week and still nothing [emoji_angry] التوصيل بطيء جدا",
+    "language": "mixed",
+    "language_confidence": 0.88,
+    "languages_detected": ["en", "ar"],
+    "hashtags": ["brandname_sale"],
+    "mentions": ["@brandname"],
+    "emojis": ["😡"],
+    "media_type": "image",
+    "has_media": true
+  },
+  "author": {
+    "author_id": "ig_user_5512",
+    "handle": "@style_by_noor",
+    "display_name": "Noor | Style",
+    "followers": 48200,
+    "is_verified": false,
+    "account_type": "creator",
+    "is_roster_creator": true,
+    "roster_creator_id": "cr_042",
+    "is_owned_account": false,
+    "is_competitor_account": false
+  },
+  "engagement": {
+    "likes": 312,
+    "comments": 27,
+    "shares": 4,
+    "views": null,
+    "reach_estimate": 48200,
+    "metrics_updated_at": "2026-10-04T09:15:00Z",
+    "metrics_final": false
+  },
+  "timestamps": {
+    "posted_at": "2026-10-04T08:41:00Z",
+    "captured_at": "2026-10-04T08:52:10Z",
+    "processed_at": "2026-10-04T08:52:14Z",
+    "enriched_daily_at": null
+  },
+  "enrichment": {
+    "sentiment": "negative",
+    "sentiment_confidence": 0.91,
+    "sentiment_source": "fast_model",
+    "sentiment_model_version": "fast-v1.2",
+    "sentiment_corrected_by_llm": false,
+    "topics": ["delivery_delay"],
+    "intent": "complaint",
+    "is_sarcastic": false,
+    "high_reach": true
+  },
+  "alerting": {
+    "counted_in_alert_window": true,
+    "triggered_alert_ids": ["al_2026-10-04_003"]
+  },
+  "observability": {
+    "pipeline_version": "2026.10.1",
+    "llm_calls": 0,
+    "processing_cost_usd": 0.00002,
+    "raw_payload_ref": "raw/instagram/2026/10/04/17998812345678901.json",
+    "errors": []
+  }
+}
