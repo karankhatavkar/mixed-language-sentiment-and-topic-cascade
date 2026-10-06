@@ -46,7 +46,7 @@ TOPIC_SCORE_CUTOFF = 0.5      # rule 3: route if no topic score >= X
 
 # Gemini
 GEMINI_PIPELINE_MODEL = "gemini-3.5-flash-lite"
-GEMINI_JUDGE_MODEL = "gemini-2.5-pro"  # spec says 3.1-pro-preview; swapped due to free-tier 250/day quota
+GEMINI_JUDGE_MODEL = "gemini-3.1-pro-preview"  # spec says 3.1-pro-preview; swapped due to free-tier 250/day quota
 PROMPT_VERSION = "v2"  # v2: dropped the fashion-brand framing so public-dataset posts aren't shoehorned
 
 # Approx $/call for a 400-in/50-out post, from the pricing in the Part B spec.
