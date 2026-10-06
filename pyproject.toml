@@ -1,0 +1,22 @@
+[project]
+name = "mixed-lang-sentiment-cascade"
+version = "0.1.0"
+description = "Sentiment and 8-topic labelling for EN/AR/mixed social posts with a small-model + Gemini cascade."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Karan Khatavkar", email = "karank1072@gmail.com" }]
+
+dependencies = [
+    "transformers>=4.57,<5",
+    "torch>=2.0",
+    "datasets>=2.14,<3",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "google-genai>=2.0",
+    "python-dotenv>=1.0",
+    "protobuf>=4.0",
+    "sentencepiece>=0.2",
+]
+
+[tool.uv]
+package = false
