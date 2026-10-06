@@ -99,7 +99,7 @@ YouTube Data API v3 → comments_raw.csv   (8,435 raw comments)
 | Small sentiment | `cardiffnlp/twitter-xlm-roberta-base-sentiment` | 3-way, multilingual, CPU |
 | Small topics | `MoritzLaurer/mDeBERTa-v3-base-mnli-xnli` | zero-shot, multi-label (sigmoid), CPU |
 | Pipeline LLM | `gemini-3.5-flash-lite` | temperature=0, JSON schema, cached |
-| Topic judge | `gemini-2.5-pro` | temperature=0, JSON schema, cached |
+| Topic judge | `gemini-3.1-pro-preview` | temperature=0, JSON schema, cached |
 
 Every Gemini call is cached in `cache/llm_cache.json` keyed by `model + prompt_version + post_id`, so reruns are free and bit-identical.
 

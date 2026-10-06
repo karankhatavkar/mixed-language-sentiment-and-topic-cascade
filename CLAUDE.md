@@ -4,7 +4,7 @@
 
 Part B of a sentiment and topic pipeline. Labels English, Arabic and mixed (EN+AR) social media posts for sentiment (positive/negative/neutral/mixed) and 8 fashion topics. Runs two free HuggingFace models on every post and routes only low-confidence posts to Gemini. Compares three setups (small-only, LLM-only, cascade) on macro-F1, negative recall, topic F1, LLM call rate and cost.
 
-Full spec: `Part B Sentiment and Topic Pipeline Config.md`.
+Full spec: `SPEC.md`.
 
 ## Stack
 
@@ -23,7 +23,7 @@ Stack is locked unless explicitly changed. Don't propose alternatives without a 
 ## Environment
 
 - Python 3.12 in `.venv/`, managed by `uv`. Install deps with `uv pip install <pkg>` — there is no `pip` inside the venv.
-- No `pyproject.toml` or lockfile yet. Add one before onboarding anyone else.
+- `pyproject.toml` is checked in (pins `transformers>=4.57,<5`, `datasets<3`, `protobuf`, `sentencepiece`). No lockfile yet — add one before onboarding anyone else.
 - **Pinned:** `datasets<3`. The `cardiffnlp/tweet_sentiment_multilingual` dataset still ships as a loader script, which `datasets>=3` refuses to run. Do not bump without first switching the loader (or vendoring the CSVs).
 - **Pinned:** `transformers<5`. v5.x misidentifies the Cardiff XLM-R model's SentencePiece vocab as a tiktoken file and fails to load the tokenizer. `transformers 4.57.x` works.
 - **Required:** `protobuf` (SentencePiece tokenizer loading needs it) and `sentencepiece` (model vocab).
@@ -34,7 +34,7 @@ Stack is locked unless explicitly changed. Don't propose alternatives without a 
 mixed-lang-sentiment-cascade/
 ├── CLAUDE.md                                      # this file
 ├── README.md
-├── Part B Sentiment and Topic Pipeline Config.md  # spec (source of truth)
+├── SPEC.md                                        # spec (source of truth)
 ├── .env                                           # GEMINI_API_KEY (not committed)
 ├── .venv/                                         # uv-managed virtual env (gitignored)
 ├── data/
@@ -46,12 +46,15 @@ mixed-lang-sentiment-cascade/
 ├── src/
 │   ├── __init__.py
 │   ├── config.py                                  # cutoffs, topic list, model ids, prompt version
-│   ├── load_data.py                               # 50 dev + 100 test per slice; later youtube
+│   ├── load_data.py                               # 50 dev + 100 test per slice + youtube
 │   ├── models.py                                  # XLM-R sentiment + mDeBERTa topics
 │   ├── llm.py                                     # Gemini call, JSON parse, cache
 │   ├── pipeline.py                                # setups A, B, C
 │   ├── judge.py                                   # Gemini Pro topic labels for test
-│   └── evaluate.py                                # metrics, cutoff sweep, results table
+│   ├── evaluate.py                                # metrics, cutoff sweep, results table
+│   ├── scrape_youtube.py                          # YouTube Data API v3 → comments_raw.csv
+│   ├── build_youtube_pool.py                      # clean + spam filter + slice bucketing + sample
+│   └── label_youtube.py                           # Flash-Lite pre-label → human-reviewed youtube.csv
 ├── cache/llm_cache.json                           # keyed by model + prompt version + post id
 └── results/                                       # predictions_*.csv, metrics.md, errors.md
 ```
@@ -128,10 +131,12 @@ Hard-locked out of scope — don't propose them, don't half-implement them:
 
 ## Run order
 
-1. `python -m src.load_data` → builds `data/processed/dev.csv` and `test.csv`.
+1. `python -m src.load_data` → builds `data/processed/dev.csv`, `test.csv`, and (if the YouTube pool has been labelled) `youtube.csv`.
 2. `python -m src.pipeline --split dev --sweep` → cutoff sweep on dev.
 3. Set chosen cutoffs in `src/config.py`.
 4. `python -m src.pipeline --split test` → runs setups A, B, C once.
-5. `python -m src.judge` then `python -m src.evaluate` → writes `results/metrics.md` and `results/errors.md`.
+5. `python -m src.pipeline --split youtube` → runs setups A, B, C on the YouTube slice.
+6. `python -m src.judge --split test` → Gemini Pro topic labels for public test.
+7. `python -m src.evaluate --split test` and `python -m src.evaluate --split youtube` → writes `results/metrics.md` and `results/metrics_youtube.md`.
 
-Adding YouTube later: new `youtube` source in `load_data.py` with the same columns + `gold_topics`; rerun steps 4 and 5. No other file should need to change.
+The YouTube track has its own upstream (`scrape_youtube.py` → `build_youtube_pool.py` → `label_youtube.py`) that produces `data/processed/youtube.csv` before step 5. See `docs/youtube_preprocessing.md`.

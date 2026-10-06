@@ -111,7 +111,7 @@ Within each slice:
 | `reply_count` | int, from the API at scrape time |
 | `published_at` | ISO 8601, from the API |
 
-**Not present yet:** `gold_sentiment`, `gold_topics`, `split`, `source`. Those are added by the labelling / judge pipeline, which produces the final `data/processed/youtube_dev.csv` and `youtube_test.csv` matching the project's common schema.
+**Not present yet:** `gold_sentiment`, `gold_topics`, `split`, `source`. Those are added by `label_youtube.py` (Flash-Lite pre-label + human review), which produces `data/processed/youtube.csv` — a single 234-row split (no dev/test), matching the project's common schema. The cutoffs are tuned on the public dev set only; YouTube is evaluated once with those cutoffs.
 
 ## Result
 

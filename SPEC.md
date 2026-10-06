@@ -22,7 +22,7 @@ Part B labels English, Arabic and mixed posts for sentiment and topic, using two
 | English | [cardiffnlp/tweet\_sentiment\_multilingual](https://huggingface.co/datasets/cardiffnlp/tweet_sentiment_multilingual), config `english` | `validation` split (323) | `test` split (869) | 0 = negative, 1 = neutral, 2 = positive |
 | Arabic | Same dataset, config `arabic` | `validation` split (323) | `test` split (869) | 0 = negative, 1 = neutral, 2 = positive |
 | Mixed | [EESA corpus](https://github.com/ASTalaat/EESA-Corpus) | `EESA-Dev.csv` (818) | `EESA-Test.csv` (818) | positive / negative / neutral |
-| YouTube (later) | Official YouTube Data API, 10 to 15 videos of one brand | \~30 | \~70 | judge pre-labelled, human reviewed |
+| YouTube | Official YouTube Data API, 3 SHEIN clothing-haul videos (2 AR creators, 1 EN creator) | — | 234 total (EN 100 / AR 100 / mixed 34) | Flash-Lite pre-labelled, human reviewed |
 
 **Why keep dev:** it is the only place the confidence cutoffs are picked. Picking them on test would inflate the test score. Both sources already ship a dev split, so it costs nothing extra.
 
@@ -167,4 +167,4 @@ partB/
 4. `pipeline.py --split test` runs A, B, C once.
 5. `judge.py` then `evaluate.py` write `results/metrics.md`.
 
-**Adding YouTube later:** a `youtube` source in `load_data.py` writing the same columns plus `gold_topics`; rerun steps 4 and 5.
+**YouTube track:** a `youtube` source in `load_data.py` writing the same columns plus `gold_topics`. Its upstream (`scrape_youtube.py` → `build_youtube_pool.py` → `label_youtube.py`) is documented in `docs/youtube_preprocessing.md`. The YouTube set is a single 234-row split (no separate dev/test), evaluated once with the dev-tuned cutoffs — see `README.md` for the result tables and `results/metrics_youtube.md` for the full breakdown.
